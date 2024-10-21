@@ -9,8 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tgwf/co2": "^0.16.0",
+    "@types/tgwf__co2": "^0.14.2",
+    "axios": "^1.7.7",
+    "express": "^4.21.1",
+    "next": "14.2.15",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.15"
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@mantine/charts": "^7.13.3",
+    "@mantine/core": "^7.13.3",
+    "@mantine/hooks": "^7.13.3",
+    "postcss": "^8.4.47",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1"
   }
 }
